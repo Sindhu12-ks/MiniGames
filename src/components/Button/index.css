@@ -1,0 +1,14 @@
+.buttonList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.rockpaperbtn {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.imagesRPS {
+  width: 200px;
+  height: 200px;
+}

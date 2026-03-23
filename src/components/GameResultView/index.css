@@ -1,0 +1,98 @@
+.resultView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MainHead {
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #fff;
+}
+.scoreBoard {
+  background-color: transparent;
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+.headingPart {
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.imageContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.scoreDiv {
+  margin: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100px;
+  padding: 5px;
+  padding-left: 15px;
+}
+.scoreText {
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #223a5f;
+}
+.resultBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yourButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+}
+.youText {
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.resultBoard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+}
+.wonText {
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+}
+.playAgainBtn {
+  width: 80px;
+  height: 34px;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: #fff;
+  color: #223a5f;
+  font-family: 'Bree Serif';
+}
+.choiceImg {
+  width: 120px;
+  height: 120px;
+}
+.signImg {
+  width: 20%;
+}
+.resultemoji {
+  width: 120px;
+  height: 120px;
+  margin-left: 12px;
+}
