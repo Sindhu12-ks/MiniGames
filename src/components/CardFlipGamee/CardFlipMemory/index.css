@@ -1,0 +1,112 @@
+.background3 {
+  background-color: #14332e;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.backButton {
+  background-color: transparent;
+  border-width: 0px;
+  color: #fff;
+}
+.backAlignment {
+  display: flex;
+  align-items: center;
+}
+.backText3 {
+  color: #fff;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  font-size: 20px;
+}
+.link {
+  text-decoration: none;
+}
+
+.imageCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.emojiImg {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+.heading4 {
+  text-align: left;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 32px;
+  padding-left: 20px;
+  color:#fff;
+}
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonMatrix2 {
+  width: 132;
+  height: 48;
+  gap: 8px;
+  opacity: 1;
+  border-radius: 12px;
+  margin-left: 20px;
+  border-width: 0px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #223a5f;
+}
+.unordered-list-styling3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: start;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2.5rem;
+}
+.unordered-list-styling3 li {
+  flex: 1 1 45%;
+  min-width: 0;
+}
+@media screen and (max-width:600px){
+  .background3{
+    padding: 0;
+  }
+  .backText3{
+    font-size: 12px;
+  }
+  .heading4{
+    font-size: 14px;
+  }
+  .buttonMatrix2{
+    width:75px;
+    height:30px;
+    gap:0;
+    padding:0px;
+    font-size: 11px;
+    margin-bottom: 6px;
+  }
+  .unordered-list-styling3{
+    font-size: 10px;
+    font-weight: 0;
+    padding: 0px;
+   }
+}

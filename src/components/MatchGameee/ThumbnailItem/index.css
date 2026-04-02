@@ -1,0 +1,27 @@
+.thumbnail-container {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+}
+.thumbnail-image {
+  width: 120px;
+  height: 120px;
+}
+.thumbnail-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+@media screen and (max-width:600px){
+  .thumbnail-container{
+    margin: 0px;
+    width:auto;
+    height: auto;
+    padding-left:0px;
+  }
+  .thumbnail-image{
+    width:40px;
+    height:40px;
+  }
+}

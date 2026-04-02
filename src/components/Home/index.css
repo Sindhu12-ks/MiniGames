@@ -7,6 +7,7 @@
   background-image: linear-gradient(to bottom, #834d9b, #d04ed6);
   background-size: cover;
 }
+ 
 .heading {
   font-family: Roboto;
   font-weight: 700;
@@ -16,6 +17,7 @@
   text-align: center;
   color: #f8fafc;
 }
+
 .listOfGames {
   display: flex;
   flex-wrap: wrap;
@@ -43,7 +45,10 @@
   width: 180px;
   height: 150px;
 }
-
+.imgEmo{
+  width: 180px;
+  height: 150px;
+}
 .gameName {
   font-family: 'Bree Serif';
   font-weight: 400;
@@ -64,4 +69,41 @@
 
 .link {
   text-decoration: none;
+}
+@media screen and (max-width:600px){
+  .background{
+    height: 120vh;
+    padding:0px;
+  }
+  .heading{
+    font-size: 24px;
+  }
+  .emoji{
+    width: 100px;
+    height: 80px;
+  }
+  .img{
+    width: 45%;
+  
+  }
+   
+  .img1{
+    width: 65%;
+  }
+  .img2{
+    width: 45%;
+  }
+  .gameName{
+    font-size: 8px;
+    padding-top: 8px;
+  }
+
+ .listOfGames{
+  padding: 0px;
+ }
+ .imgEmo{
+    margin-top:0px;
+    width:50px;
+    height:35px;
+   }
 }

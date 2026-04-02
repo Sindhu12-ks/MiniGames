@@ -1,0 +1,28 @@
+.tab-item {
+  padding: 10px;
+  background-color: transparent;
+}
+.tab-item-button {
+  color: #fff;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+ 
+.active-tab {
+  color: #fec653;
+  border-bottom: 3px solid #fec653;
+}
+@media screen and (max-width:600px){
+  .tab-item-button{
+    font-size: 10px;
+  }
+  .tab-item{
+    padding: 0;
+  }
+  .active-tab{
+     border-bottom: 1.5px solid #fec653;
+  }
+}

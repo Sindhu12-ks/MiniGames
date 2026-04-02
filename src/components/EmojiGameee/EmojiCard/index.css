@@ -1,0 +1,26 @@
+.eachEmoji {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.emojiCard {
+  background-color: #ffffff33;
+  backdrop-filter: blur(20px);
+  border-radius: 13px;
+  border: 2px solid #ffffff30;
+  width: 255px;
+  height: 212px;
+  opacity: 1;
+}
+.emojiSingle {
+  width: 60%;
+}
+@media screen and (max-width:600px) {
+  .emojiCard{
+    width: 30px;
+    height: 30px;
+    margin:0px;
+    padding:0px;
+  }
+}

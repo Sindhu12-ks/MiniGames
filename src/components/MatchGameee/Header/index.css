@@ -1,0 +1,60 @@
+.navbar {
+  width: 100%;
+  padding: 10px;
+  background-color: #2c0e3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.matchGameHeading{
+  color:#fec653;
+  font-size: 20px;
+}
+@media screen and (max-width:600px){
+  .matchGameHeading{
+    font-size: 10px;
+    max-width:40px;
+  }
+}
+
+.score-timer-container {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.heading-text {
+  color: #fff;
+  font-size: 20px;
+  padding-right: 16px;
+}
+@media screen and (max-width:600px){
+  .heading-text{
+    font-size: 10px;
+  }
+}
+.score-time {
+  font-size: 20px;
+  color: #fec653;
+  font-weight: bold;
+}
+@media screen and (max-width:600px){
+  .score-time{
+    font-size: 10px;
+
+  }
+}
+.timer-container {
+  display: flex;
+  align-items: center;
+}
+.timer-image {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+@media screen and (max-width:600px){
+  .timer-image{
+     width: 18px;
+     height: 18px;
+  }
+}

@@ -7,10 +7,11 @@ const Home = () => (
     <ul className="listOfGames">
       <Link to="/emoji-game" className="link">
         <li className="emoji">
+          <h1 className="gameName">Emoji Game</h1>
           <img
-            src="https://res.cloudinary.com/di56syjhq/image/upload/v1772346565/Group_7471_nc42rf.png"
+            src="https://res.cloudinary.com/di56syjhq/image/upload/v1774948759/f44fa4e27d470d3b6a41ca34dd87685e7465f380_sdgv7x.png"
             alt="emoji game"
-            className="img"
+            className="imgEmo"
           />
         </li>
       </Link>

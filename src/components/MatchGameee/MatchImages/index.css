@@ -1,0 +1,128 @@
+.background2 {
+  background-color: #1a202c;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media screen and (max-width:600px){
+  .background2{
+    padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  }
+}
+.backButton {
+  background-color: transparent;
+  border-width: 0px;
+  color: #334155;
+}
+.backAlignment {
+  display: flex;
+  align-items: center;
+}
+.backText1 {
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+@media screen and (max-width:600px){
+  .backText1{
+    font-weight: 0;
+    font-size: 12px;
+  }
+}
+.link {
+  text-decoration: none;
+}
+
+.imageCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.gameText1 {
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+@media screen and (max-width:600px){
+  .gameText1{
+    font-weight: 0;
+    font-size: 14px;
+  }
+}
+.emojiImg3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.heading1 {
+  text-align: left;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 32px;
+  padding-left: 20px;
+  color:#fff;
+}
+.description {
+  display: flex;
+  justify-content: center;
+}
+.buttonMatrix {
+  width: 132;
+  height: 48;
+  gap: 8px;
+  opacity: 1;
+  border-radius: 12px;
+  margin-left: 20px;
+  border-width: 0px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  font-family: Bree Serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  background-color: #467aff;
+}
+.unordered-list {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2.5rem;
+}
+@media screen and (max-width:600px){
+  .buttonMatrix{
+    width:75px;
+    height:30px;
+    gap:0;
+    padding:0px;
+    font-size: 11px;
+    margin-bottom: 6px;
+  }
+  .heading1{
+    font-size: 14px;
+    font-weight: 0;
+  }
+  .unordered-list{
+    font-size: 10px;
+    font-weight: 0;
+    font-family: sans-serif;
+    padding: 12px;
+  }
+}

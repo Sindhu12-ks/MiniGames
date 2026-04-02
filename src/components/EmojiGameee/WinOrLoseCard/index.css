@@ -1,0 +1,99 @@
+.rulesBox1 {
+  background: #ffffff33;
+  border: 2px solid hsla(0, 0%, 100%, 0.188);
+  backdrop-filter: blur(20px);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  width: 800px;
+}
+
+.aligning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gameStatus {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width:600px) {
+.gameStatus{
+   padding-left: 6px;
+   padding-right: 0px;
+}
+}
+.winorLoseText {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 48px;
+  color: #334155;
+}
+@media screen and (max-width:600px) {
+.winorLoseText{
+  font-weight: 0;
+  font-size: 12px;
+}
+}
+.bestScoreText {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #334155;
+}
+@media screen and (max-width:600px) {
+.bestScoreText{
+  font-size: 14px;
+  font-weight: 0;
+}
+}
+.scoreText {
+  color: #523fff;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+@media screen and (max-width:600px) {
+.scoreText{
+  font-size: 14px;
+  font-weight: 0;
+}
+}
+.playBtn {
+  background-color: #ffce27;
+  width: 145px;
+  height: 40px;
+  border-radius: 20px;
+  border-width: 0px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 16px;
+  color: #3d3d3d;
+  text-align: center;
+  margin-bottom: 10px;
+}
+@media screen and (max-width:600px) {
+.playBtn{
+  font-size: 8px;
+  font-weight: 0;
+  width: 50px;
+  height: 25px;
+  
+}
+}
+.winLoseImg {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 10px;
+}
+.result {
+  width: 80%;
+  margin-top: 20px;
+}
